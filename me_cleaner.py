@@ -27,7 +27,7 @@ min_ftpr_offset = 0x400
 spared_blocks = 4
 unremovable_modules = ("ROMP", "BUP")
 unremovable_modules_me11 = ("rbe", "kernel", "syslib", "bup")
-unremovable_partitions_me11 = ("FTPR")
+unremovable_partitions_me11 = ("FTPR", "MFS\0", )
 
 
 class OutOfRegionException(Exception):
